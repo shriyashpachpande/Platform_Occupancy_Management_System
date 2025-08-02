@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #eef4fa;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="text"] ,input[type="number"]{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+input[type="submit"] {
+    background-color: #1a0793;
+    color: white;
+    width: 150px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 40%;
+    font-weight: 600;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #120564;
+}
+
+.classForm{
+    width: 60%;
+    height: 400px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    transition: 0.4s;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.classForm:hover{
+    box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+}
+
+.classForm-check{
+    width: 60%;
+    height: 450px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.classForm-check:hover{
+    box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+}
+.claaForm-Check11{
+    width: 48%;
+    height: 380px;
+    background: url(images/pic6.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+}
+.claaForm-Check1{
+    width: 48%;
+    height: 380px;
+    background-color: transparent;
+    color: #333;
+    border-radius: 20px;
+  
+}
+.Formiting{
+    text-align: center;
+    height: 370px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #120564;
+    padding-top: 80px;
+    border-radius: 20px;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+}
+.button{
+    background-color: #120564da;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    bottom: 100px;transition: 0.5s;
+    left: 30px;
+}
+.button:hover{
+    background: #120564;
+}

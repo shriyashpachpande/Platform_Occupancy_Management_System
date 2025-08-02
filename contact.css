@@ -1,0 +1,217 @@
+
+
+
+
+/*
+.ajent-box-inner{
+    height: 520px;
+    width: 100%;
+   
+    background-color: rgb(255, 255, 255);
+    margin-left: 0%;
+}
+
+.inner_with_main_content{
+    margin-left: 30px;
+    height: 480px;
+    width: 100%;
+    top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_box1{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+}
+.contact-para1{
+    font-size: 42px;
+    margin: 0 0 16px;
+    color: #0E2E50;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-left: 20px;
+}
+.contact-form,.contact-form-subject,.contact-message{
+    margin-left: 20px;
+    width: 280px;
+    height: 60px;
+    outline: none;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    padding-left: 20px;
+    transition: 0.4s;
+}
+.contact-form::placeholder{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.contact-form:hover{
+    border: 2px solid #00b98e;
+}
+.contact-form-subject{
+    width: 585px;
+}
+.contact-form-subject::placeholder{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.contact-form-subject:hover{
+    border: 2px solid #00b98e;
+}
+.contact-message{
+    width: 585px;
+    height: 90px;
+}
+textarea::placeholder{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+textarea:hover{
+    border: 2px solid #00b98e;
+}
+.contact-submit{
+    width: 587px;
+    height: 60px;
+   font-size: 18px;
+   font-family: sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    outline: none;
+    border: 2px solid #00b98e;
+    background: #00b98e;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.contact-submit:hover{
+    box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+}
+
+*/
+
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+.inner_box1{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+}
+.inner_with_main_content{
+    width: 80%;
+   margin-left: 10%;
+  height: 520px;
+    border: 1px dashed #FFC72C;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+}
+.ajent-box-outer1{
+    height: 520px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0%;
+}
+.contact-para1{
+    font-size: 42px;
+    margin: 0 0 16px;
+    color: #0E2E50;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-left: 20px;
+   
+}
+.contact-form,.contact-form-subject,.contact-message{
+    margin-left: 20px;
+    width: 280px;
+    height: 60px;
+    outline: none;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    padding-left: 20px;
+    transition: 0.4s;
+}
+.contact-form::placeholder{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.contact-form::placeholder:hover{
+    font-size:20px ;
+}
+.contact-form:hover{
+    border: 2px solid #FFC72C;
+}
+.contact-form-subject{
+    width: 610px;
+}
+.contact-form-subject::placeholder{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.contact-message{
+    width: 610px;
+    height: 90px;
+}
+textarea::placeholder{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+textarea:hover{
+    border: 2px solid #FFC72C;
+}
+.contact-submit{
+    width: 640px;
+    height: 60px;
+   font-size: 18px;
+   font-family: sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    outline: none;
+    border: 2px solid #ffffff;
+background-color: #1da1f2;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.contact-submit:hover{
+    background: #1877f2;
+    box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

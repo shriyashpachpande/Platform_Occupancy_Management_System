@@ -1,0 +1,123 @@
+*{
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.outersearchbx{
+    width: 500px;
+    height: 350px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: 1px solid #f3f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 540px; top: 130px;
+}
+.search-box{
+    width: 400px;
+    background:#fff;
+    margin: 200px auto 0;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+button .fa-solid{
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
+::placeholder{
+    color: #555;
+}
+.result-box ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+.result-box1 ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.result-box1 ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.result-box ul li:hover{
+    background: #e9f3ff;
+}
+.result-box1 ul li:hover{
+    background: #e9f3ff;
+}
+.result-box {
+    position: absolute; 
+    width: 80.4%; 
+    max-height: 300px; 
+    overflow-y: auto; 
+    background: white; 
+    z-index: 1000; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+.result-box1 {
+    position: absolute; 
+    width: 50.9%; 
+    max-height: 300px; 
+    overflow-y: auto; 
+    background: white; 
+    z-index: 1000; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+.submitbuton{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    color: #ccc;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+    background: #120564ea;
+    cursor: pointer;
+    position: relative;
+    bottom: 150px;
+
+}
+.submitbuton:hover{
+    background: #120564;
+}
+h2{
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #120564;
+    
+}

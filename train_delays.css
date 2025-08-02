@@ -1,0 +1,132 @@
+
+.main-div-for-blur-img{
+    width: 90%;
+    height: 550px;
+    margin-left: 5%;
+    margin-top: 3%; 
+    border-radius: 15px;
+    background:  transparent;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.4s;
+}
+.main-div-for-blur-img:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.first-div-for-photo{
+    width: 43%;
+    height: 450px;
+    border-radius: 12px;
+    border: 2px solid rgb(145, 142, 142);
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background: url(images/add_train2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.first-div-for-photo:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.zoom{
+    height: 460px; width: 100%;  background-color: transparent;
+    background: url(images/add_train2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: 0.7s;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+}
+.zoom:hover{
+    transform: scale(1.1,1.1);
+}
+.second-div-for-registration{
+    width: 48%;
+    height: 450px;
+    border-radius: 12px;transition: 0.4s;
+    transition: 0.4s;
+    border: 2px solid rgb(159, 157, 157);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-right: 3%;
+}
+
+.first-div-for-photo:hover{
+    border: 2px solid white;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #090158;
+    outline: none;
+    border: 1px solid #090158;
+    margin-bottom: 39px;
+    
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: #ffc107;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid white;
+    color: white;
+}
+.container{
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.outer-edit{
+    color:rgb(91, 87, 87);
+    font-family:sans-serif ;
+    font-size: 18px; 
+    letter-spacing: 1px;
+    padding-left: 30px;
+}
+.decorate{
+    height: 40px;
+    width: 260px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 12px;
+    background-color: transparent;
+    color: rgb(91, 87, 87);
+    padding-left: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 2px solid rgba(255, 255, 255, .2);
+    transition: 0.4S;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.decorate::placeholder{
+    color: rgb(91, 87, 87);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.decorate:hover{
+    border: 2px solid rgb(91, 87, 87);
+    color:rgb(91, 87, 87);
+}
+.outer-editecho{
+    color:black;
+    line-height: 30px;
+    font-family:sans-serif ;
+    font-size: 20px; 
+    letter-spacing: 1px;
+    padding-left: 30px;
+    
+}

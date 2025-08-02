@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocomplete Example</title>
+    <style>
+        /* Basic styling for the result box */
+        #result-box {
+            border: 1px solid #ccc;
+            max-height: 150px;
+            overflow-y: auto;
+            position: absolute;
+            z-index: 1000;
+            background-color: white;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            padding: 8px;
+            cursor: pointer;
+        }
+        li:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+<input type="text" id="input-box" placeholder="Type to search...">
+<div id="result-box"></div>
+
+<script>
+    let availableKeywords = [
+        'washim', 'hingoli', 'dharmabad', 'nanded', 'mudkhed jn', 'malkapur', 'akola jn',
+    ];
+
+    const resultBox = document.getElementById("result-box");
+    const inputBox = document.getElementById("input-box");
+
+    inputBox.onkeyup = function() {
+        let result = [];
+        let input = inputBox.value;
+        if (input.length) {
+            result = availableKeywords.filter((keyword) => {
+                return keyword.toLowerCase().includes(input.toLowerCase());
+            });
+            console.log(result);
+        }
+        display(result);
+    }
+
+    function display(result) {
+        const content = result.map((list) => {
+            return "<li onclick='selectInput(this)'>" + list + "</li>"; // Use quotes around the function call
+        });
+        resultBox.innerHTML = "<ul>" + content.join('') + "</ul>";
+    }
+
+    function selectInput(item) {
+        inputBox.value = item.innerHTML; // Set input box value to selected item
+        resultBox.innerHTML = ''; // Clear the result box
+    }
+</script>
+
+</body>
+</html>

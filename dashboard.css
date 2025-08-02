@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(images/dashboard.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 30%;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+    transition: 0.4s;
+  }
+  .wrapper:hover{
+    border: 2px solid #ffffff;
+  }
+  .wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .userclass-outer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainuserprofile{
+    font-size: 150px;
+  }
+.sentence{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 400;
+    color:#330000;
+}
+.go-home{
+    font-size: 24px;
+    background-color: #2F3C7E;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: #FBEAEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    transition: 0.5s
+}
+.go-home:hover{
+    background-color: #101820;
+    color: #FEE715;
+    transform: scale(1.1,1.1);
+    box-shadow: rgba(59, 59, 223, 0.834) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgb(59, 59, 223) 0px -6px 6px 0px inset;
+}
